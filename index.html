@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>RPW - Resource Pack Workbench</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/application.css">
+	<script src="js/utils.js"></script>
+
+	<script type="text/javascript">
+		function setup() {
+			headingAnchors('#');
+		}
+	</script>
+</head>
+<body onload="setup()">
+
+<header id="PageHeader">
+	<span id="top"></span>
+	<div class="Content">
+		Resource Pack Workbench
+		<img class="Icon" src="img/icon.png">
+	</div>
+</header>
+
+<section>
+	<div class="Content">
+		<h1>What is RPW</h1>
+
+		<nav class="menu">
+			<a href="#get-rpw">Get RPW!</a>
+			<a href="#support">Bugs & support</a>
+			<a href="#videos">Videos</a>
+			<a href="#screenshots">Screenshots</a>
+			<a href="#contribute">Contribute!</a>
+		</nav>
+
+		<p>
+			RPW is a tool for building and editing Minecraft resource packs.
+		</p>
+
+		<p>
+			It shows you the pack structure and lets you replace or edit the files.
+		</p>
+
+		<h2>What it can do</h2>
+
+		<ul style="margin-top:0">
+			<li>Create, modify and remix packs
+			<li>Edit assets using your favorite editors (GIMP, Audacity...)
+			<li>Edit mod assets (not only Vanilla)
+			<li>Add custom sounds for "/playsound"
+			<li>Export the pack directly to your Minecraft folder, for easy testing
+		</ul>
+
+		<p>
+			RPW doesn't include an image editor — but you can set it to use your preferred external one.
+		</p>
+
+		<p>
+			A good choice is for example GIMP or Paint.net
+		</p>
+
+		<h2>Stay up to date</h2>
+
+		<p>All important RPW news will be announced on Twitter:</p>
+
+		<p><a href="https://twitter.com/RPWapp" target="_blank" class="button blue">Follow @RPWapp</a></p>
+	</div>
+</section>
+
+
+<section>
+	<div class="Content">
+		<img src="img/rpw-screenshot.png" alt="RPW screenshot">
+	</div>
+</section>
+
+<section>
+	<div class="Content">
+		<h1 id="get-rpw">Get RPW</h1>
+
+		<p>Arch Linux users can install RPW <a href="https://aur.archlinux.org/packages/rpw/" target="_blank">from the AUR</a></p>
+
+		<p>RPW is a Java application. Whichever download you choose, you need Java installed.</p>
+
+		<p>
+			<a href="https://dl.dropboxusercontent.com/u/64454818/RPW/RPW-4-1-0.jar" class="button red">
+				4.1.0 JAR
+			</a>
+
+			<a href="https://dl.dropboxusercontent.com/u/64454818/RPW/RPW_4-1-0.dmg" class="button blue">
+				4.1.0 DMG
+			</a>
+
+			<!--
+			<a href="https://dl.dropboxusercontent.com/u/64454818/RPW/RPW_4-1-0.exe" class="button green">
+				4.1.0 EXE
+			</a>
+			-->
+		</p>
+
+		<p><b>DMG:</b> For Mac only. Double-click the file, then move the RPW app to your Apps folder.</p>
+
+		<p>Alternatively, you'll find the latest release <a href="https://github.com/MightyPork/rpw/releases" target="_blank">on GitHub</a>.</p>
+
+		<p><b>Old versions</b> can also be found there.</p>
+	</div>
+</section>
+
+<section>
+	<div class="Content">
+		<h1 id="support">Support</h1>
+
+		<h2>Report a bug</h2>
+
+		<p>To report a bug or crash, please start a new issue here:</p>
+
+		<p>
+			<a href="https://github.com/MightyPork/rpw/issues" class="button orange" target="_blank">
+				Bugtracker
+			</a>
+		</p>
+
+		<h2>Ask for help</h2>
+
+		<p>For help with using RPW, please join our Gitter:</p>
+
+		<p>
+			<a href="https://gitter.im/MightyPork/rpw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge" class="button cyan" target="_blank">
+				Support channel
+			</a>
+		</p>
+
+		<p>We'll receive a notification and get to you ASAP.</p>
+
+	</div>
+</section>
+
+<section>
+	<div class="Content">
+		<h1 id="contribute">Contribute</h1>
+
+		<p>
+			If you have an idea for RPW, or wanna try fix a bug, please, by all means, go for it!
+		</p>
+
+		<ul>
+			<li>Fork our repo
+			<li>Do your thing
+			<li>Send a Pull Request
+		</ul>
+
+		<p>
+			<a href="https://github.com/MightyPork/rpw" class="button black" target="_blank">
+				RPW on GitHub
+			</a>
+		</p>
+
+		<p>
+			We'll happily merge anything useful!
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="Content">
+		<h1 id="videos">Videos</h1>
+		<p>Wanna be famous? Review RPW and send us a link ;-)</p>
+
+		<h2>Old showcase video (v2B.3)</h2>
+		<div class="youtube-container">
+			<div class="youtube-player r4-3" data-id="zgObkhpjtkU"></div>
+		</div>
+
+		<h2>Newer video (v3.9.1)</h2>
+		<div class="youtube-container">
+			<div class="youtube-player r4-3" data-id="xkt0Qec5zTY"></div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="Content">
+		<h1 id="screenshots">Screenshots</h1>
+
+		<h2>Creating a project</h2>
+		<p>RPW can create a blank project, or a project from existing resource pack.</p>
+		<p class="center"><img src="img/scr-newproject.png"></p>
+
+		<h2>Configuring editors</h2>
+		<p>On Windows, you'll have to locate your "exe". On Linux, just the binary name would suffice.</p>
+		<p class="center"><img src="img/scr-editors.png"></p>
+
+		<h2>Runtime log</h2>
+		<p>The log view is available from the Help menu.</p>
+		<p>It can help with analyzing bugs, and you can check there what exactly is RPW doing.</p>
+		<p>RPW also saves it's log into a file in the working directory (~/.mcRPW)</p>
+		<p class="center"><img src="img/scr-log.png"></p>
+
+		<h2>Stitcher / unstitcher</h2>
+		<p>RPW contains a utility for stitching and un-stitching textures.</p>
+		<p>Do not confuse it with the old Mojang-provided tool - this is something differnet.</p>
+		<p>
+			It's useful when you feel like editing more textures at once, and don't want to reopen the
+			ditor all the time. But not everyone will like it, of course.
+		</p>
+		<p class="center">
+			<img src="img/scr-stitch-export.png">
+			<img src="img/scr-stitch-import.png">
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="Content">
+		<p class="center"><a href="#top" class="button blue" style="margin:0">Back to top</a></p>
+		<p class="center"><small>Website by MightyPork</small></p>
+	</div>
+</section>
+
+
+</body>
+</html>

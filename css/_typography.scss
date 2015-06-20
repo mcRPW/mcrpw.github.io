@@ -1,0 +1,43 @@
+// HEADINGS
+
+h1 {
+	font-size: gr(2);
+	font-weight: bold;
+	padding: gr(0) 0 gr(-3) 0;
+	margin:0;
+
+	&:first-child {
+		padding-top: gr(-2);
+	}
+}
+
+h2 {
+	font-size: gr(1);
+	padding: gr(-1) 0 gr(-3) 0;
+	font-weight: bold;
+	margin:0;
+}
+
+// BASIC ELEMENTS
+
+p {
+	margin: gr(-1) 0 gr(-1) 0;
+}
+
+ul {
+	padding-left: gr(1);
+
+	li {
+		margin-left: gr(0);
+	}
+}
+
+a {
+	color: #316eb8;
+	text-decoration: none;
+
+	&:hover {
+		color: #3c90e5;
+		text-decoration: underline;
+	}
+}
